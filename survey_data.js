@@ -1,15 +1,19 @@
 // Hard coded survey questions
 module.exports = [
-    {
-        text: 'Please tell us your age.',
-        type: 'number'
-    },
-    {
-        text: 'Have you ever jump-kicked a lemur?',
+        {
+        text: 'Did you take your Atenelol this morning as prescribed?',
         type: 'boolean'
     },
     {
-        text: 'Who is your favorite Teenage Mutant Ninja Turtle and why?',
+        text: 'Did your ride arrive on-time today?',
+        type: 'bolean'
+    },
+    {
+        text: 'How  many minutes do you need to prepare for leaving the house for your appointment?',
+        type: 'boolean'
+    },
+    {
+        text: 'How could we improve your member experience',
         type: 'text'
     }
 ];
