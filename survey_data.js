@@ -13,7 +13,7 @@ module.exports = [
         type: 'boolean'
     },
     {
-        text: 'How could we improve your member experience',
+        text: 'How could we improve your member experience?',
         type: 'text'
     }
 ];
