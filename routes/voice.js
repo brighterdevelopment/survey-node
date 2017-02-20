@@ -34,13 +34,13 @@ exports.interview = function(request, response) {
 
         // If question is null, we're done!
         if (!question) {
-            say('Thank you for taking this survey. Goodbye!');
+            say('Thanks for riding with Brighter.');
             return respond();
         }
 
         // Add a greeting if this is the first question
         if (questionIndex === 0) {
-            say('Thank you for taking our survey. Please listen carefully '
+            say('Thanks for riding with Brighter. Please listen carefully '
                 + 'to the following questions.');
         }
 
