@@ -56,7 +56,7 @@ module.exports = function(request, response) {
 
         // Add a greeting if this is the first question
         if (questionIndex === 0) {
-            responseMessage += 'Thanks for riding Brighter!;
+            responseMessage += 'Thanks for riding Brighter!';
         }
 
         // Add question text
