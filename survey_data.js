@@ -1,12 +1,13 @@
 // Hard coded survey questions
 module.exports = [
 
-        {
-        text: 'How  many minutes do you need to prepare for leaving the house for your appointment?',
-        type: 'number'
-    },
+
         {
         text: 'Did your ride arrive ontime?',
+        type: 'bolean'
+    },
+    {
+        text: 'Would you like your driver to assist you in confirming your appointment? ',
         type: 'bolean'
     },
      {
