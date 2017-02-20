@@ -1,19 +1,25 @@
 // Hard coded survey questions
 module.exports = [
+
         {
-        text: 'Did you take your Atenelol this morning as prescribed?',
-        type: 'boolean'
+        text: 'How  many minutes do you need to prepare for leaving the house for your appointment?',
+        type: 'number'
     },
-    {
-        text: 'Did your ride arrive on-time today?',
+        {
+        text: 'Did your ride arrive ontime?',
         type: 'bolean'
     },
-    {
-        text: 'How  many minutes do you need to prepare for leaving the house for your appointment?',
+     {
+        text: 'Did you take Medicine X today?',
+        type: 'boolean'
+    },
+        {            
+        text: 'Do you want your driver to pickup X?',
         type: 'boolean'
     },
     {
         text: 'How could we improve your member experience?',
         type: 'text'
     }
+
 ];
