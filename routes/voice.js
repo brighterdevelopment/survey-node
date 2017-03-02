@@ -34,13 +34,13 @@ exports.interview = function(request, response) {
 
         // If question is null, we're done!
         if (!question) {
-            say('Thanks for riding with RideQ');
+            say('Thanks for using RideQ today!');
             return respond();
         }
 
         // Add a greeting if this is the first question
         if (questionIndex === 0) {
-            say('Thanks for riding with RideQ. Please listen carefully '
+            say('Welcome to RideQ. Please listen carefully '
                 + 'to the following questions.');
         }
 
