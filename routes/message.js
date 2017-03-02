@@ -51,12 +51,12 @@ module.exports = function(request, response) {
 
         // If question is null, we're done!
         if (!question) {
-            return respond('Thanks for riding with RideQ');
+            return respond('Thanks for riding with RideQ! ');
         }
 
         // Add a greeting if this is the first question
         if (questionIndex === 0) {
-            responseMessage += 'Thanks for riding with RideQ';
+            responseMessage += 'Thanks for riding with RideQ! ';
         }
 
         // Add question text
